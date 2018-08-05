@@ -1,0 +1,131 @@
+﻿+#main{
+	width: 1000px;
+	border: 1px solid #e0e0e0;
+	margin-right: auto;
+	margin-left: auto;
+}
+header{
+	height: 130px;
+	width: 100%;
+	background-image: url('../images/De6_bg.png');
+}
+#menu{
+	margin-top: 0px;
+	height: 60px;
+	width: 100%;
+}
+ul{
+	display: block;
+	list-style-type: none;
+}
+li:hover a{
+	color: yellow;
+}
+li{
+	display: inline-block;
+	height: 30px;
+	margin-right: 20px;
+}
+li a{
+	text-decoration: none;
+	color: #696969;
+	font-size: 20px;
+}
+#bot{
+	height: 40px;
+	width: 100%;
+	background-color: #f2f2f2;
+	box-shadow: -3px -4px 10px  #e0e0e0 inset;
+}
+#left{
+	height: 450px;
+	width: 70%;
+	float: left;
+	background-color: #f2f9f9;
+}
+#right{
+	height: 450px;
+	width: 30%;
+	float: left;
+	background-color: #edf2f2;
+	box-shadow:  4px 0px  5px #b2b2b2 inset;
+}
+footer{
+	height: 70px;
+	width: 100%;
+	clear: both;
+	background-color: #edf2f2;
+}
+article{
+	height: 350px;
+	width: 90%;
+	margin-top: 50px;
+	margin-left: 25px;
+}
+/*Định dạng tên "Contact Form"*/
+h1{
+	font-size: 30px;
+	color: green;
+	text-shadow: 9px 8px 10px green;
+	float: left;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+/*Định dạng text trong form*/
+p{
+	clear: both;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+button{
+	background-color: #1e8dfc;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 18px;
+	border-radius: 8px;
+}
+/*Định dạng text "lastest work"*/
+h2{
+	font-size: 20px;
+	color: #f72c8e;
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+	border-bottom-color: #d1caca;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+/*Định dạng text "view work"*/
+h3{
+	font-size: 20px;
+	color: #87e5e5;
+	border-bottom-width: 2px;
+	border-bottom-style: dashed;
+	border-bottom-color: #d1caca;
+	margin-left: 10px;
+	margin-top: -3px;
+	margin-bottom: 15px;
+}
+img{
+	border-color: #4141db;
+	border-style: dashed;
+	border-width: 2px;
+	margin-left: 10px;
+	margin-top: -4px;
+	border-radius: 8px;
+}
+h3:hover img{
+	-webkit-transform: rorate(30deg);
+	transform: rorate(30deg);
+}
+footer #ten{
+	color: #35115b;
+	font-size: 18px;
+	float: right;
+	margin-right: 50px;
+}
+
+
